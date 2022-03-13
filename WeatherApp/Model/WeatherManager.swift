@@ -13,6 +13,7 @@ protocol WeatherManagerDelegate {
     func didFailWithError(error: Error)
     func showAlert(with message : String)
 }
+
 struct WeatherManager {
     let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=589b650d537baf6c580774ab6ff28e39&units=metric"
     
